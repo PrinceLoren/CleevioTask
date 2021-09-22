@@ -21,7 +21,9 @@ export const Menu = (): JSX.Element => {
             </div>
             <div className={styles.time}>
                 <TimeIcon className={styles.timeIcon} />
-                <div>Your Trips</div>
+                <Link href='/'>
+                    <button className={styles.yourTrip}>Your trips</button>
+                </Link>
             </div>
         </>
 

@@ -1,46 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .trip {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
 }
 
 .form {
-    display: grid;
-    gap: 10px;
-    margin-top: 50px;
+	display: grid;
+	gap: 10px;
+	margin-top: 50px;
 }
 
 .block {
-    width: 500px;
-    height: auto;
+	display: flex;
+	flex-direction: column;
+	margin: 15px 50px;
+	width: 500px;
+	height: auto;
 
-    padding: 20px;
+	padding: 20px;
 
-    background: #F9F9FA;
-    border-radius: 10px;
-
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-
-
+	background: #f9f9fa;
+	border-radius: 10px;
 }
 
 .block > div {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
-
 .covid {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .covidYes {
-    flex-direction: row;
+	flex-direction: row;
+}
+
+.selectWrapper {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.selectWrapper > select {
+	width: 460px;
+	height: 50px;
+	border: 1px solid #f1f1f2;
+	box-sizing: border-box;
+	border-radius: 10px;
+
+	padding: 15px 15px;
+}
+
+.select1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.blockItem {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	gap: 20px;
+}
+
+.covidBox {
+	margin: 15px 0;
+}
+
+.blockInput {
+	width: 460px;
+	height: 50px;
+
+	border: 1px solid #f1f1f2;
+	box-sizing: border-box;
+	border-radius: 10px;
 }

@@ -1,26 +1,32 @@
 .wrapperMenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 20px;
 }
 
 .logo {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .button {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .timeIcon {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 .time {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.yourTrip {
+	background: none;
+	outline: none;
+	border: none;
 }
