@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.trip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form {
+    display: grid;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.block {
+    width: 500px;
+    height: auto;
+
+    padding: 20px;
+
+    background: #F9F9FA;
+    border-radius: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+
+}
+
+.block > div {
+    margin-bottom: 10px;
+}
+
+
+.covid {
+    display: flex;
+    flex-direction: column;
+}
+
+.covidYes {
+    flex-direction: row;
+}

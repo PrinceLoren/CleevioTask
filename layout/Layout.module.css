@@ -1,0 +1,25 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 240px auto 320px;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    grid-template-areas:
+    "sidebar body more"
+    "sidebar body more"
+    "sidebar body more";
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #F9F9FA;
+    align-content: flex-end;
+}
+
+.body {
+    grid-area: body;
+}
+
+.more {
+    grid-area: more;
+    border-left: 1px solid #F1F1F2;
+}

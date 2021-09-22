@@ -1,0 +1,49 @@
+.button {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.primary {
+    background: #F8D964;
+
+}
+
+
+.ghost {
+    background: #FEC527;
+}
+
+
+
+.disable {
+    background: #F8D964;
+    opacity: 50%;
+}
+
+
+
+.loading {
+    background: #F8D964;
+    opacity: 50%;
+}
+
+
+.icon {
+    margin-left: 100px;
+}
+
+
+
+
+
